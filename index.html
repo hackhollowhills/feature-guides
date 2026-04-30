@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>feature guides!</title>
+    <style>
+      html {
+        /* the html is the outermost element; the rules here apply to the WHOLE page */
+        font-family: "Share Tech"; /* set the font to "Share Tech" */
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      #view {
+        width: 75%;
+        min-width: fit-content;
+        border: 2px solid black;
+        padding: 1rem;
+        margin: 3px;
+      }
+      #feature-guide-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      #feature-guide-list li {
+        cursor: pointer;
+        text-decoration: underline;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="view">
+      <div id="home">
+        <h1>pick a feature guide!</h1>
+        <ul id="feature-guide-list">
+          <li hidden>home</li>
+          <li>404 Page</li>
+          <li>Custom Font</li>
+          <li>Hover Effect</li>
+          <li>Navigation Bar</li>
+          <li>Footer</li>
+          <li>Lists</li>
+          <li>Special Links</li>
+          <li>Links to Other Websites</li>
+        </ul>
+      </div>
+      <div id="404 Page" hidden>
+        <button
+          onclick="
+            document.getElementById('home').hidden = false;
+            document.getElementById('404 Page').hidden = true;
+          "
+        >
+          Back
+        </button>
+        <h1 id="making-a-404-page">making a 404 page</h1>
+        <h2 id="step-1-create-a-404-html-file">step 1: create a 404.html file</h2>
+        just like you have index.html and your two other pages, create a file named 404.html.<br />
+        <img
+          width="363"
+          height="139"
+          alt="Screenshot 2026-04-29 at 9 30 06 PM"
+          src="https://github.com/user-attachments/assets/244e4b2d-7e5c-40fe-93c2-e7a9e80e82b9"
+        />
+        <h2 id="step-2-add-content-and-styling-to-your-404-html">step 2: add content and styling to your 404.html</h2>
+        you want to make it clear that this person has landed on the wrong page.
+        <br />
+        <img
+          width="621"
+          height="501"
+          alt="Screenshot 2026-04-29 at 9 32 09 PM"
+          src="https://github.com/user-attachments/assets/cbe88cbe-a3c0-44b9-9f07-207c9fe27832"
+        /><br />
+        do not copy the code exactly. you may use it as inspiration or reference.
+        <h4 id="preview">preview</h4>
+        <img
+          width="710"
+          height="795"
+          alt="Screenshot 2026-04-29 at 9 36 25 PM"
+          src="https://github.com/user-attachments/assets/db13dced-c7be-4f51-a78e-bbb79eabc370"
+        />
+        <h2 id="done-">done!</h2>
+        <p>
+          once the site is finished, if you go to any page that isn&#39;t defined (for me, any page not named
+          <code>index.html</code>, <code>brands.html</code>, or <code>history.html</code>) it will show you the 404
+          page.
+        </p>
+      </div>
+      <div id="Custom Font" hidden>
+        <button
+          onclick="
+            document.getElementById('home').hidden = false;
+            document.getElementById('Custom Font').hidden = true;
+          "
+        >
+          Back
+        </button>
+        <h1 id="custom-fonts-">custom fonts!</h1>
+        <h2 id="step-1-go-to-fonts-google-com-scoll-and-click-on-a-font-you-like">
+          step 1: go to fonts.google.com, scoll and click on a font you like
+        </h2>
+        <p>
+          <img
+            width="1321"
+            height="601"
+            alt="Screenshot 2026-04-29 at 10 32 56 PM"
+            src="https://github.com/user-attachments/assets/fd50ed21-54ab-47bd-8882-790fdf5fd3d9"
+          />
+        </p>
+        <h2 id="step-2-press-get-font-and-then-press-get-embed-code-">
+          step 2: press &quot;Get Font&quot; and then press &quot;Get embed code&quot;
+        </h2>
+        <p>
+          <img
+            width="385"
+            height="252"
+            alt="Screenshot 2026-04-29 at 10 33 56 PM"
+            src="https://github.com/user-attachments/assets/1f121793-86fa-423c-8c3a-abeafa92be02"
+          />
+          <img
+            width="755"
+            height="318"
+            alt="Screenshot 2026-04-29 at 10 34 23 PM"
+            src="https://github.com/user-attachments/assets/511a4a78-1cff-4908-9de4-6312b495ac87"
+          />
+        </p>
+        <h2 id="step-3-press-copy-code-for-the-first-code-snippet-then-paste-it-inside-of-your-head-head-tags">
+          step 3: press Copy Code for the FIRST code snippet. then, paste it inside of your <head></head> tags
+        </h2>
+        <p>
+          <img
+            width="799"
+            height="152"
+            alt="Screenshot 2026-04-29 at 10 35 57 PM"
+            src="https://github.com/user-attachments/assets/3827e736-f1b7-4d15-9e04-1b55f9443fb9"
+          />
+        </p>
+        <h2 id="step-4-use-the-font-">step 4: use the font!</h2>
+        <p>
+          <img
+            width="609"
+            height="111"
+            alt="Screenshot 2026-04-29 at 10 38 08 PM"
+            src="https://github.com/user-attachments/assets/2b6e0257-095b-43e7-8c7e-2bbd56e2ae4c"
+          />
+        </p>
+        <h4 id="final-code-for-reference-">final code for reference:</h4>
+        <p>
+          <img
+            width="738"
+            height="364"
+            alt="Screenshot 2026-04-29 at 10 38 43 PM"
+            src="https://github.com/user-attachments/assets/b63824d0-bd13-490e-be95-d1c749367dc4"
+          />
+        </p>
+        <h2 id="result-">result!</h2>
+        <p>
+          <img
+            width="154"
+            height="55"
+            alt="Screenshot 2026-04-29 at 10 37 33 PM"
+            src="https://github.com/user-attachments/assets/7255efaa-fb81-4312-a2a1-d512c51160df"
+          />
+        </p>
+      </div>
+      <div id="Hover Effect" hidden>
+        <button
+          onclick="
+            document.getElementById('home').hidden = false;
+            document.getElementById('Hover Effect').hidden = true;
+          "
+        >
+          Back
+        </button>
+        <h1 id="hover-effects">hover effects</h1>
+        <h2 id="look-at-this">example</h2>
+        <p>
+          based on your knowledge of css, what do you this does?<br />
+          <img
+            width="595"
+            height="148"
+            alt="Screenshot 2026-04-29 at 10 10 44 PM"
+            src="https://github.com/user-attachments/assets/ff3d2588-55af-4e9b-9881-4f6805fb33b8"
+          />
+        </p>
+        <p>
+          the answer: it selects an element that has the id <code>chobani</code> and it sets the width to 300 pixels.
+          the <code>:hover</code> makes it so that if the element is hovered, it&#39;s width will increase to 500 pixels
+          and it will gain a solid red border, 20 pixels wide.
+        </p>
+        <p>it counts as being hovered when the cursor is over the element.</p>
+        <h4 id="the-element">the element</h4>
+        <p>
+          <img
+            width="319"
+            height="76"
+            alt="Screenshot 2026-04-29 at 10 13 14 PM"
+            src="https://github.com/user-attachments/assets/392d162b-8d07-4882-a085-afc9ef4adaa1"
+          /><br />
+        </p>
+        <h4 id="the-result">the result</h4>
+        <p>
+          unhovered:</br>
+          <img
+            width="314"
+            height="320"
+            alt="Screenshot 2026-04-29 at 10 14 24 PM"
+            src="https://github.com/user-attachments/assets/e2fb801c-2564-49c7-ba28-8df744480a38"
+          /><br />
+          hovered:<br/>
+          <img
+            width="566"
+            height="561"
+            alt="Screenshot 2026-04-29 at 10 14 36 PM"
+            src="https://github.com/user-attachments/assets/e9efdf81-902d-4602-a1b6-1e908fba8489"
+          /><br />
+        </p>
+        <p>(the yellow-brownish color is the background)</p>
+      </div>
+      <div id="Navigation Bar" hidden>
+        <button
+          onclick="
+            document.getElementById('home').hidden = false;
+            document.getElementById('Navigation Bar').hidden = true;
+          "
+        >
+          Back
+        </button>
+        <h1 id="navigation-bar">navigation bar</h1>
+<h2 id="see-this-example-">see this example!</h2>
+<p><img width="398" height="183" alt="Screenshot 2026-04-29 at 10 20 18 PM" src="https://github.com/user-attachments/assets/6917a225-49a9-4b63-9f8d-08c8ef07e1eb" /></p><br/>
+<p>a navigation bar is a bar meant to help the user navigate throughout the website. it is declared with the <code>nav</code> element type.</p>
+<p><b>you can put any content inside of the <code>nav</code>!</b> there MUST be content inside of your <code>nav</code> for it to count.</p>
+<p>i highly reccomend styling it too!<br/>
+<img width="696" height="145" alt="Screenshot 2026-04-29 at 10 22 02 PM" src="https://github.com/user-attachments/assets/072c90a8-7ddd-4f6d-bf92-37bffa5c06b8" /></p>
+<h4 id="result">result</h4>
+<p><img width="463" height="105" alt="Screenshot 2026-04-29 at 10 23 02 PM" src="https://github.com/user-attachments/assets/242b45de-bf10-4d0f-8ce0-9254fb396672" /></p>
+        </div>
+        <div id="Footer" hidden>
+            <button
+                onclick="
+                document.getElementById('home').hidden = false;
+                document.getElementById('Footer').hidden = true;
+                "
+            >
+                Back
+            </button>
+            <h1 id="footer">footer</h1>
+<h2 id="see-this-example-">see this example!</h2>
+<p><img width="558" height="59" alt="Screenshot 2026-04-29 at 10 25 10 PM" src="https://github.com/user-attachments/assets/b924760b-c289-4433-b142-f57d15347fc2" /></p>
+<p>a footer is declared with the <code>footer</code> element type. it&#39;s usually placed right before your <code>&lt;/body&gt;</code> or where your body ends.</p>
+<p><b>you can put any content inside of the <code>footer</code>!</b> there MUST be content inside of your <code>footer</code> for it to count.</p>
+<p>i highly reccomend styling it too!</p>
+<p><img width="1048" height="94" alt="Screenshot 2026-04-29 at 10 26 51 PM" src="https://github.com/user-attachments/assets/8a83afe4-77ef-48f4-a8de-14dcfc47f8b7" /></p>
+<h4 id="result">result</h4>
+<p><img width="455" height="49" alt="Screenshot 2026-04-29 at 10 27 27 PM" src="https://github.com/user-attachments/assets/8e256617-69b6-4c1e-9e5c-f6cca76f01e0" /><br/>
+(the yellowish-brownish color is part of the background, ignore that)</p>
+
+        </div>
+        <div id="Lists" hidden>
+            <button
+                onclick="
+                document.getElementById('home').hidden = false;
+                document.getElementById('Lists').hidden = true;
+                "
+            >
+                Back
+            </button>
+            <h1 id="lists">lists</h1>
+<p>a list is a collection of items. a grocery list is a collection of items you want to get from the grocery store.</p>
+<h2 id="step-1-choose-your-list">step 1: choose your list</h2>
+<p>you can either do:</p>
+<pre><code class="lang-html"><span class="hljs-section">&lt;ul&gt;</span>
+<span class="hljs-section">&lt;/ul&gt;</span>
+</code></pre>
+<p><code>ul</code> means unordered list. each element inside of the list will have a bullet point to the left of it.</p>
+<p>-- or --</p>
+<pre><code class="lang-html"><span class="hljs-section">&lt;ol&gt;</span>
+<span class="hljs-section">&lt;/ol&gt;</span>
+</code></pre>
+<p><code>ol</code> means ordered list. each element inside of the list will have a number to the left of it counting from 1.</p>
+<h2 id="step-2-make-your-list-and-add-your-items">step 2: make your list and add your items</h2>
+<p><img width="849" height="314" alt="Screenshot 2026-04-29 at 10 01 19 PM" src="https://github.com/user-attachments/assets/3c589d76-ca7b-4ad1-b565-7db277bd6237" /></p>
+<p>the <code>ul</code> tags declare an unordered list. each <code>li</code> element declares an item in that list. you have to add content inside of each <code>li</code> about the item.</p>
+<h4 id="result">result</h4>
+<p><img width="539" height="779" alt="Screenshot 2026-04-29 at 10 03 57 PM" src="https://github.com/user-attachments/assets/1b64d1a5-a64e-4a7e-8c23-327d197ac322" /></p>
+        </div>
+        <div id="Special Links" hidden>
+            <button
+                onclick="
+                document.getElementById('home').hidden = false;
+                document.getElementById('Special Links').hidden = true;
+                "
+            >
+                Back
+            </button>
+            <h1 id="adding-special-links">adding special links</h1>
+<p>there&#39;s two main types of special links: mail and call.</p>
+<h2 id="mail-link-example">mail link example</h2>
+<p><img width="386" height="23" alt="Screenshot 2026-04-29 at 9 45 03 PM" src="https://github.com/user-attachments/assets/47b8a2aa-8695-4080-967b-5ff1d7079b0d" /></p>
+<p>the format is <code>mailto:&lt;email address&gt;</code>.</p>
+<p><img width="68" height="21" alt="Screenshot 2026-04-29 at 9 46 35 PM" src="https://github.com/user-attachments/assets/591b3f6e-f3f7-4b36-9659-02c4e2f31d66" />
+if i click on that link, the mail app on my computer opens and creates a draft for an email to that email address.</p>
+<h2 id="call-link-example">call link example</h2>
+<p><img width="269" height="18" alt="Screenshot 2026-04-29 at 9 48 45 PM" src="https://github.com/user-attachments/assets/65da10e6-e9b0-423b-a0be-192cdd36ee60" /></p>
+<p>the format here is <code>tel:&lt;phone number&gt;</code>.</p>
+<p><img width="58" height="19" alt="Screenshot 2026-04-29 at 9 49 48 PM" src="https://github.com/user-attachments/assets/3adeb56e-5028-4a93-ab5c-320da6fefc67" /></p>
+<p>if i click on that link, my computer will try calling that phone number.</p>
+<h2 id="where-do-i-add-this-">where do i add this?</h2>
+<p><b>add this whereever you&#39;d like!!</b> you can put it directly in the <code>&lt;body&gt;</code> or if you have a <code>&lt;footer&gt;</code> or <code>&lt;nav&gt;</code>, you can put it in there too! just remember that HTML renders elements in the order of the code.</p>
+</div>
+        <div id="Links to Other Websites" hidden>
+            <button
+                onclick="
+                document.getElementById('home').hidden = false;
+                document.getElementById('Links to Other Websites').hidden = true;
+                "
+            >
+                Back
+            </button>
+            <h1 id="links-to-other-websites">links to other websites</h1>
+<h2 id="step-1-find-something-to-link-to">step 1: find something to link to</h2>
+<p>i used a youtube video!</p>
+<h2 id="step-2-create-the-anchor-element">step 2: create the anchor element</h2>
+<p><code>a</code> declares a link. the <code>href=</code> attribute describes where that link should lead to.<br/>
+<img width="455" height="17" alt="Screenshot 2026-04-29 at 10 05 45 PM" src="https://github.com/user-attachments/assets/a9bdaf64-5327-4cae-908f-db92c450c836" /></p>
+<h4 id="result">result</h4>
+<p><img width="29" height="20" alt="Screenshot 2026-04-29 at 10 07 25 PM" src="https://github.com/user-attachments/assets/67ae5a30-1bbd-447a-aba8-ceb0b994372d" /><br/>
+if i press on the link, it will lead me to the youtube video.</p>
+    </div>
+    <script>
+      function load() {
+        var elements = document.getElementById("feature-guide-list").getElementsByTagName("li");
+        for (var i = 0; i < elements.length; i++) {
+          elements[i].addEventListener("click", function () {
+            var featureGuideName = this.innerText;
+            var eles = document.getElementById("feature-guide-list").getElementsByTagName("li");
+            for (var j = 0; j < eles.length; j++) {
+              if (eles[j].innerText === featureGuideName) {
+                document.getElementById(eles[j].innerText).hidden = false;
+              } else {
+                document.getElementById(eles[j].innerText).hidden = true;
+              }
+            }
+          });
+        }
+      }
+      load();
+    </script>
+  </body>
+</html>
+
