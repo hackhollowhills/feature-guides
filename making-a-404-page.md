@@ -8,6 +8,8 @@ just like you have index.html and your two other pages, create a file named 404.
 you want to make it clear that this person has landed on the wrong page.
 <img width="621" height="501" alt="Screenshot 2026-04-29 at 9 32 09 PM" src="https://github.com/user-attachments/assets/cbe88cbe-a3c0-44b9-9f07-207c9fe27832" />
 do not copy the code exactly. you may use it as inspiration or reference.
+#### preview
+<img width="710" height="795" alt="Screenshot 2026-04-29 at 9 36 25 PM" src="https://github.com/user-attachments/assets/db13dced-c7be-4f51-a78e-bbb79eabc370" />
 
 ## done!
 once the site is finished, if you go to any page that isn't defined (for me, any page not named `index.html`, `brands.html`, or `history.html`) it will show you the 404 page.
